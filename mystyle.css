@@ -1,0 +1,346 @@
+@media (max-width:480px)
+{
+    .form{
+      position: static;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+    }
+    .btnStartNow{
+        width: 100px;
+    }
+    .divFirstBtn{
+        margin-bottom: 0;
+    }
+}
+
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    overflow-x: hidden;
+}
+
+.bgblackgold {
+    background-image: url("https://image.api.playstation.com/cdn/EP1004/CUSA08519_00/ydok3iw4BDzeDEKpmEafCbl8roHZl5HG.png");
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* position: relative; */
+    /* background-attachment: fixed; */
+    color: white;
+}
+
+.firstheadlines {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    position: absolute;
+    border-radius: 30px;
+    /* z-index: 1; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid black; */
+    top: 25vh;
+    bottom: 25vh;
+    right: 10vw;
+    left: 70vw;
+    justify-content: space-between;
+    gap: 5px;
+    height: auto !important;
+}
+
+.h1orange {
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    border-radius: 30px 30px 0 0;
+}
+
+.middleForm {
+    color: rgb(97, 97, 97);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.checkbox {
+    border-radius: 10px;
+    color: rgb(80, 80, 80);
+}
+
+.divFirstBtn {
+    margin-bottom: 40px;
+}
+
+.btnStartNow {
+    background-color: rgb(15, 111, 255);
+    color: white;
+    border-radius: 10px;
+    /* padding: 7px 60px; */
+    height: 50px;
+    width:250px;
+}
+
+
+.pEndGold {
+    background-color: black;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 50px;
+    width: 100vw;
+    font-size: x-large;
+}
+
+.orangeText {
+    color: rgb(255, 166, 0);
+}
+
+.blueText {
+    color: rgb(68, 165, 255);
+}
+
+.second{
+    height: 140vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.credit{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    background-color: white;
+}
+
+.creditimg{
+    height:150px;
+    width: 150px;
+}
+
+.sslCredit{
+    width: 300px;
+}
+
+.middleSecond{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.secondThird{
+    display: flex;
+    flex-direction: column;
+}
+
+.imgComputer{
+    height: 500px;
+    width: 500px;
+}
+
+.makeRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+
+.icon{
+    height: 100px;
+    width: 100px;
+}
+
+.yellowSquare{
+    background-color: rgb(255, 193, 21);
+    height: 550px;
+    width: 500px;
+    color: white;
+    display: flex; 
+     align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+}
+
+.blackText{
+    color: rgb(63, 63, 63);
+}
+
+p{
+    font-size: x-large;
+}
+
+.limited{
+    background-image: url("https://d3m9l0v76dty0.cloudfront.net/system/photos/3655528/large/8563925b37958b9fa97c51685932523b.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.finish{
+    background-color:rgb(121, 58, 0);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.third{
+    width: 100vw;
+    height: 140vh;
+    background-image: url("https://besthqwallpapers.com/Uploads/3-10-2019/107299/thumb2-gold-price-increase-gold-bullion-chart-gold-concepts-3d-gold-bars-white-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.6;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: relative;
+}
+
+.btnStartLearning{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wwlearn{
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hwwlearn{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 10px ;
+}
+
+.learn1{
+    background-color: rgb(243, 159, 2);
+    position: absolute;
+    left: 20%;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 5px rgb(184, 184, 184) solid;
+}
+
+.learn2{
+    background-color: rgb(243, 159, 2);
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 5px rgb(184, 184, 184) solid;
+}
+
+.learn3{
+    background-color: rgb(243, 159, 2);
+    position: absolute;
+    left: 60%;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 5px rgb(184, 184, 184) solid;
+    padding: 0 10px;
+}
+.lastForm{
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+    border-radius: 30px;
+    z-index: 1;
+    height: 350px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    /* border: 2px solid black; */
+}
+
+.lastFORMcolumn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.h1orangelast{
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 30px 30px 0 0;
+}
+
+.flex{
+    display: flex;
+    gap: 20px;
+    
+}
+
