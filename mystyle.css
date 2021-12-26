@@ -1,19 +1,3 @@
-@media (max-width:480px)
-{
-    .form{
-      position: static;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      left: 0;
-    }
-    .btnStartNow{
-        width: 100px;
-    }
-    .divFirstBtn{
-        margin-bottom: 0;
-    }
-}
 
 
 body {
@@ -24,6 +8,7 @@ html, body{
     overflow-x: hidden;
 }
 
+
 .bgblackgold {
     background-image: url("https://image.api.playstation.com/cdn/EP1004/CUSA08519_00/ydok3iw4BDzeDEKpmEafCbl8roHZl5HG.png");
     height: 100vh;
@@ -31,8 +16,6 @@ html, body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* position: relative; */
-    /* background-attachment: fixed; */
     color: white;
 }
 
@@ -46,20 +29,20 @@ html, body{
 .form {
     position: absolute;
     border-radius: 30px;
-    /* z-index: 1; */
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: 2px solid black; */
     top: 25vh;
     bottom: 25vh;
     right: 10vw;
     left: 70vw;
     justify-content: space-between;
     gap: 5px;
-    height: auto !important;
 }
+
+
+
 
 .h1orange {
     background-color: orange;
@@ -91,7 +74,6 @@ html, body{
     background-color: rgb(15, 111, 255);
     color: white;
     border-radius: 10px;
-    /* padding: 7px 60px; */
     height: 50px;
     width:250px;
 }
@@ -173,7 +155,7 @@ html, body{
     justify-content: center;
     align-items: center;
     gap: 10px;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
     padding-top: 30px;
 }
 
@@ -213,7 +195,11 @@ p{
     align-items: center;
     justify-content: center;
     color: white;
+    text-align: center;
+    font-size: 20px;
 }
+
+
 
 .finish{
     background-color:rgb(121, 58, 0);
@@ -221,7 +207,7 @@ p{
     background-position: center;
     background-size: cover;
     width: 100vw;
-    height: 300px;
+    height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -302,6 +288,7 @@ p{
     border: 5px rgb(184, 184, 184) solid;
     padding: 0 10px;
 }
+
 .lastForm{
     position: absolute;
     bottom: 5%;
@@ -315,7 +302,6 @@ p{
     align-items: center;
     justify-content: center;
     background-color: grey;
-    /* border: 2px solid black; */
 }
 
 .lastFORMcolumn{
@@ -344,3 +330,138 @@ p{
     
 }
 
+.lastP{
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+@media (max-width:480px)
+{
+    .form{
+      position: unset;
+      width: 80vw;
+      height: 400px;
+      margin-top: 20px;
+    }
+    .container{
+        padding: 0 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .firstheadlines{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .pEndGold{
+        position: unset;
+        padding-bottom: 5px;
+        margin-top: 50px;
+        height: 150px;
+        padding-left: 15px;
+
+    }
+    
+    .pEndGold > p{
+        font-size: 18px;
+    }
+    .credit{
+        gap: 5px;
+        width: 100vw;
+        justify-content: space-evenly;
+    }
+
+    .creditimg{
+        width: 20vw;
+        height: unset;
+    }
+    .imgComputer{
+        width: 100vw;
+    }
+    
+  .makeRow{
+      flex-direction: column;
+  }
+
+  .second{
+      justify-content: unset;
+      height: unset;
+  }
+
+  .secondThird{
+      align-items: center;
+  }
+
+  .secondThird> h2{
+      font-size: 20px;
+  }
+  .secondMiddle> p{
+      font-size: 20px;
+      text-align: center;
+  }
+
+  .parSecond{
+      padding-top: 20px;
+  }
+
+  .parSecond > h1{
+      text-align: center;
+  }
+
+  .imgComputer{
+      height: 50vh;
+  }
+
+  .row{
+      flex-direction: column;
+      gap: 5px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+  }
+
+  .limited h2{
+      text-align: center;
+  }
+
+  .limited{
+      height: 250px;
+      font-size: 14px;
+  }
+  
+  .btnStartLearning{
+      padding-top: 10px;
+  }
+
+  .learn1,.learn2,.learn3{
+      position: unset;
+  }
+  
+  .learn3{
+    width: 280px;
+  }
+
+  .lastForm{
+      position: relative;
+      width: 400px;
+      bottom: unset;
+      left: unset;
+      margin-top: 20px;
+
+  }
+
+  .yellowSquare{
+      height: 400px;
+  }
+
+  .finish{
+      margin-top: 250px;
+  }
+
+  .lastP{
+      font-size: 18px;
+  }
+
+}
